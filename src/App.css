@@ -3,6 +3,9 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	background-color: #fefdf4;
+}
 .header {
 	background-color: aliceblue;
 	height: 12vh;
@@ -11,6 +14,7 @@
 	align-items: center;
 	padding: 0 10px;
 	font-family: 'Merienda', cursive;
+	margin-bottom: 30px;
 }
 
 ul {
@@ -27,10 +31,44 @@ ul li {
 }
 
 .body-container {
-	max-width: 70%;
+	max-width: 93%;
+	margin: 15px auto;
+	width: 100%;
+	height: 300px;
+	background-color: #f3dd91;
+	border-radius: 10px;
+}
+h3 {
+	font-size: 30px;
+	margin: 0 30px;
+}
+h2 {
+	margin-bottom: 15px;
+	font-size: 30px;
+}
+.vazifa {
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	height: 30px;
+	padding:;
+	width: 300px;
 	margin: 0 auto;
-	/* text-align: center; */
+}
+.input {
+}
+.btn-add {
+	width: 60px;
+	height: 30px;
 }
 .to-do-app {
 	text-align: center;
+	color: #fff;
+}
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+	margin: 0 auto;
+	background-color: #f3dd91;
 }

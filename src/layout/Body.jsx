@@ -29,6 +29,17 @@ function Body() {
 					</div>
 				</div>
 			</div>
+			<div className='body-container-2'>
+				<div className='number-container'>
+					<button type='button' className='number-btn'>
+						-
+					</button>
+					<h1 className='number'> 0</h1>
+					<button type='button' className='number-btn'>
+						+
+					</button>
+				</div>
+			</div>
 		</>
 	)
 }

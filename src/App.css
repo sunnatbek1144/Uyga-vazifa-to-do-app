@@ -16,7 +16,9 @@ body {
 	font-family: 'Merienda', cursive;
 	margin-bottom: 30px;
 }
-
+.logo {
+	margin-left: 2vh;
+}
 ul {
 	display: flex;
 	justify-content: space-between;
